@@ -30,7 +30,7 @@ h1{
     padding: 20px;
     text-align: center;
     float:right;
-    margin-right: 120px;
+    margin-right: 150px;
 }
 .form-main .input-field{
     width: 100%;
@@ -69,16 +69,17 @@ h1{
     font-size: 14px;
 }
 
-.form button{
+form button{
+    border-radius: 100px;
     font-family: "Roboto", sans-serif;
-    outline: 1;
-    margin: 0 180px 15px;
-    border: 0;
-    padding: 11px;
-    width:max-content;
-    background-color: rgb(37, 59, 99);
+    margin: 0 0 15px;
+    border: 1px solid white;
+    padding: 6px 20px;
+    color:white;
+    background:transparent;
     font-size:14px;
     cursor: pointer;
+    background-color: rgb(71, 94, 134);
 }
 .form p{
     font-family: "Roboto", sans-serif;
